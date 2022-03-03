@@ -1,0 +1,19 @@
+# Entry cn=gildong7,ou=people,o=ssis violates the Directory Server schema
+# configuration because it includes attribute userType which is not allowed by
+# any of the objectclasses defined in that entry
+dn: cn=gildong7,ou=people,o=ssis
+changetype: add
+objectclass: top
+objectclass: ssisPerson
+cn: gildong7
+userName:: 7ZmN6ri464+ZNw==
+userType: A
+hp: 010-1234-1234
+email: gildong1@korea.kr
+webmailAuth: 0
+twofactorAuth: 0
+sslvpnAuth: 0
+eduAuth: 1
+secuportalAuth: 1
+webvulnAuth: 1
+

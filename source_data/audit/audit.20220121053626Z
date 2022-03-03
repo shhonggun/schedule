@@ -1,0 +1,349 @@
+# 19/1월/2022:15:52:23 +0900; conn=27005; op=16
+dn: cn=testuser,ou=people,o=ssis
+changetype: modify
+replace: email
+email: dfdf@ssis.or.kr
+-
+replace: modifiersName
+modifiersName: cn=Directory Manager,cn=Root DNs,cn=config
+-
+replace: modifyTimestamp
+modifyTimestamp: 20220119065223Z
+
+# 19/1월/2022:15:52:31 +0900; conn=27005; op=20
+dn: cn=synctest1,ou=people,o=ssis
+changetype: modify
+replace: discription
+discription: synctest123
+-
+replace: modifiersName
+modifiersName: cn=Directory Manager,cn=Root DNs,cn=config
+-
+replace: modifyTimestamp
+modifyTimestamp: 20220119065231Z
+
+# 19/1월/2022:16:01:10 +0900; conn=27005; op=32
+dn: cn=synctest1,ou=people,o=ssis
+changetype: modify
+replace: discription
+discription: synctest12345
+-
+replace: modifiersName
+modifiersName: cn=Directory Manager,cn=Root DNs,cn=config
+-
+replace: modifyTimestamp
+modifyTimestamp: 20220119070110Z
+
+
+# 19/1월/2022:16:01:59 +0900; conn=27005; op=37
+dn: cn=testuser,ou=people,o=ssis
+changetype: modify
+replace: topDeptName
+topDeptName: dfda
+-
+replace: modifiersName
+modifiersName: cn=Directory Manager,cn=Root DNs,cn=config
+-
+replace: modifyTimestamp
+modifyTimestamp: 20220119070159Z
+
+# 19/1월/2022:16:10:38 +0900; conn=27005; op=40
+dn: cn=testuser,ou=people,o=ssis
+changetype: modify
+replace: deptName
+deptName: dfdf
+-
+replace: topDeptName
+topDeptName: dfda
+-
+replace: sslvpnAuth
+sslvpnAuth: 1
+-
+replace: hp
+hp: 010-3111-3333
+-
+replace: cn
+cn: testuser
+-
+replace: email
+email: dfdf@ssis.or.kr
+-
+replace: fullDeptName
+fullDeptName: dfaaa
+-
+replace: userPassword
+userPassword: {SHA512}PQ7Ps1ZrTIWUGReSDkl4Wc44D+5MZ7EHP0nwAn/C1dKFuQquPyQ6N+wIewX0OwRooPUo1i5Fg/uNqcuV8bk14g==
+-
+replace: userName
+userName:: 6rCV64Ko
+-
+replace: objectClass
+objectClass: top
+objectClass: ssisUser
+-
+replace: userType
+userType: C
+-
+replace: pwdChangedTime
+pwdChangedTime: 20220119071038.904Z
+-
+replace: modifiersName
+modifiersName: cn=Directory Manager,cn=Root DNs,cn=config
+-
+replace: modifyTimestamp
+modifyTimestamp: 20220119071038Z
+
+# 19/1월/2022:16:10:45 +0900; conn=27005; op=50
+dn: cn=synctest1,ou=people,o=ssis
+changetype: modify
+replace: userName
+userName: synctest123
+-
+replace: modifiersName
+modifiersName: cn=Directory Manager,cn=Root DNs,cn=config
+-
+replace: modifyTimestamp
+modifyTimestamp: 20220119071045Z
+
+# 19/1월/2022:16:16:17 +0900; conn=27005; op=53
+dn: cn=synctest1,ou=people,o=ssis
+changetype: modify
+replace: discription
+discription: synctest123
+-
+replace: modifiersName
+modifiersName: cn=Directory Manager,cn=Root DNs,cn=config
+-
+replace: modifyTimestamp
+modifyTimestamp: 20220119071617Z
+
+# 19/1월/2022:16:16:21 +0900; conn=27005; op=57
+dn: cn=testuser,ou=people,o=ssis
+changetype: modify
+replace: topDeptName
+topDeptName: dfdaaa
+-
+replace: modifiersName
+modifiersName: cn=Directory Manager,cn=Root DNs,cn=config
+-
+replace: modifyTimestamp
+modifyTimestamp: 20220119071621Z
+
+# 19/1월/2022:16:18:07 +0900; conn=27005; op=62
+dn: cn=synctest2,ou=people,o=ssis
+changetype: add
+objectClass: top
+objectClass: ssisUser
+email: synctest2@ssis.or.kr
+cn: synctest2
+topDeptName: synctest2
+fullDeptName: synctest2
+hp: 010-1234-6123
+deptName: synctest2
+userType: C
+userPassword: {SHA512}uetT09pqIEO1tiYPlG3JzBvtJqx3hh46gHblkCGMMyy0qxz/hIc35pk+NPAZel9AoeFUFS5LpGLJmdaJxuXdeg==
+userName: synctest2
+createTimestamp: 20220119071807Z
+pwdChangedTime: 20220119071807.038Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+entryUUID: 8f0d303c-9de2-41b5-8e5f-bfd7854a36fc
+
+# 19/1월/2022:16:18:36 +0900; conn=27005; op=68
+dn: cn=synctest3,ou=people,o=ssis
+changetype: add
+objectClass: top
+objectClass: ssisUser
+email: synctest3@ssis.or.kr
+cn: synctest3
+topDeptName: synctest3
+fullDeptName: synctest3
+hp: 010-8781-0081
+deptName: synctest3
+userType: A
+userPassword: {SHA512}uetT09pqIEO1tiYPlG3JzBvtJqx3hh46gHblkCGMMyy0qxz/hIc35pk+NPAZel9AoeFUFS5LpGLJmdaJxuXdeg==
+userName: synctest3
+createTimestamp: 20220119071836Z
+pwdChangedTime: 20220119071836.673Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+entryUUID: 632640e8-ce77-4ed1-b615-02f697e01b11
+
+# 20/1월/2022:11:26:13 +0900; conn=27081; op=33
+dn: cn=synctest3,ou=people,o=ssis
+changetype: delete
+
+# 20/1월/2022:11:31:46 +0900; conn=27081; op=87
+dn: cn=test45,ou=people,o=ssis
+changetype: add
+objectClass: top
+objectClass: ssisUser
+usertype: A
+username:: dGVzdOydtOumhA==
+email: test@ssis.com
+webmailauth: 0
+twofactorauth: 0
+sslvpnauth: 0
+cn: test45
+eduauth: 0
+topdeptname:: 7KGw7KeB
+fulldeptname:: 7KGw7KeB66qFIOyhsOyngQ==
+hp: 010-1111-2222
+deptname:: 7KGw7KeB
+userpassword: {SHA512}YZCY+phDMLXqUbI57T22Iw2sIYBg4eWZMBqK/7NfelgAS+p23rMBr87qUYofLHlU2jBOgCUEeKfIKsRAQCk3ow==
+secuportalauth: 0
+webvulnauth: 0
+srcvulnauth: 0
+createTimestamp: 20220120023146Z
+pwdChangedTime: 20220120023146.294Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+entryUUID: 341d9d1c-2298-4d05-b41f-7a9de0fffa88
+
+# 20/1월/2022:12:14:46 +0900; conn=27081; op=135
+dn: cn=test4,ou=people,o=ssis
+changetype: modify
+replace: userType
+userType: C
+-
+replace: modifiersName
+modifiersName: cn=Directory Manager,cn=Root DNs,cn=config
+-
+replace: modifyTimestamp
+modifyTimestamp: 20220120031446Z
+
+# 20/1월/2022:12:15:11 +0900; conn=27081; op=148
+dn: cn=test4,ou=people,o=ssis
+changetype: modify
+replace: webmailAuth
+webmailAuth: 1
+-
+replace: modifiersName
+modifiersName: cn=Directory Manager,cn=Root DNs,cn=config
+-
+replace: modifyTimestamp
+modifyTimestamp: 20220120031511Z
+
+# 20/1월/2022:12:15:48 +0900; conn=27081; op=177
+dn: cn=test4,ou=people,o=ssis
+changetype: modify
+replace: webmailAuth
+webmailAuth:: 7ZWc6rWt7Ja0
+-
+replace: modifiersName
+modifiersName: cn=Directory Manager,cn=Root DNs,cn=config
+-
+replace: modifyTimestamp
+modifyTimestamp: 20220120031548Z
+
+# 20/1월/2022:13:48:53 +0900; conn=27108; op=26
+dn: cn=webvulntestNO,ou=people,o=ssis
+changetype: modify
+replace: webmailAuth
+webmailAuth: 1
+-
+replace: modifiersName
+modifiersName: cn=Directory Manager,cn=Root DNs,cn=config
+-
+replace: modifyTimestamp
+modifyTimestamp: 20220120044853Z
+
+# 20/1월/2022:13:50:41 +0900; conn=27116; op=21
+dn: cn=webvulntest,ou=people,o=ssis
+changetype: modify
+replace: webmailAuth
+webmailAuth: 1
+-
+replace: modifiersName
+modifiersName: cn=Directory Manager,cn=Root DNs,cn=config
+-
+replace: modifyTimestamp
+modifyTimestamp: 20220120045041Z
+
+# 20/1월/2022:13:51:53 +0900; conn=27116; op=57
+dn: cn=webvulntest,ou=people,o=ssis
+changetype: modify
+replace: userType
+userType: a
+-
+replace: modifiersName
+modifiersName: cn=Directory Manager,cn=Root DNs,cn=config
+-
+replace: modifyTimestamp
+modifyTimestamp: 20220120045153Z
+
+# 20/1월/2022:14:04:03 +0900; conn=27120; op=21
+dn: cn=webmailtestNO,ou=people,o=ssis
+changetype: modify
+replace: userType
+userType: A
+-
+replace: modifiersName
+modifiersName: cn=Directory Manager,cn=Root DNs,cn=config
+-
+replace: modifyTimestamp
+modifyTimestamp: 20220120050403Z
+
+# 20/1월/2022:14:04:26 +0900; conn=27120; op=46
+dn: cn=webmailtestNO,ou=people,o=ssis
+changetype: modify
+replace: userType
+userType: C
+-
+replace: modifiersName
+modifiersName: cn=Directory Manager,cn=Root DNs,cn=config
+-
+replace: modifyTimestamp
+modifyTimestamp: 20220120050426Z
+
+# 20/1월/2022:14:25:39 +0900; conn=1; op=22
+dn: cn=synctest2,ou=people,o=ssis
+changetype: delete
+
+# 20/1월/2022:15:46:33 +0900; conn=1; op=456
+dn: cn=synctest1,ou=people,o=ssis
+changetype: modify
+replace: eduAuth
+eduAuth: 1
+-
+replace: modifiersName
+modifiersName: cn=Directory Manager,cn=Root DNs,cn=config
+-
+replace: modifyTimestamp
+modifyTimestamp: 20220120064633Z
+
+# 20/1월/2022:15:46:33 +0900; conn=1; op=458
+dn: cn=synctest1,ou=people,o=ssis
+changetype: modify
+replace: eduAuth
+eduAuth: 1
+-
+replace: webvulnAuth
+webvulnAuth: 2
+-
+replace: modifiersName
+modifiersName: cn=Directory Manager,cn=Root DNs,cn=config
+-
+replace: modifyTimestamp
+modifyTimestamp: 20220120064633Z
+
+# 20/1월/2022:15:46:33 +0900; conn=1; op=460
+dn: cn=synctest1,ou=people,o=ssis
+changetype: modify
+replace: eduAuth
+eduAuth: 1
+-
+replace: webvulnAuth
+webvulnAuth: 2
+-
+replace: srcvulnAuth
+srcvulnAuth: 3
+-
+replace: modifiersName
+modifiersName: cn=Directory Manager,cn=Root DNs,cn=config
+-
+replace: modifyTimestamp
+modifyTimestamp: 20220120064633Z
+
+# 20/1월/2022:15:46:41 +0900; conn=1; op=473
+dn: cn=synctest1,ou=people,o=ssis
+changetype: delete
+
+#

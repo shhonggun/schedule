@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/unboundid-ldapsdk_5.1.3.jar"/>
+	<classpathentry kind="lib" path="lib/quartz-all-1.7.1.jar"/>
+	<classpathentry kind="lib" path="lib/commons-logging.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-1.2-api-2.17.1.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-api-2.17.1.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-core-2.17.1.jar"/>
+	<classpathentry kind="lib" path="lib/mysql-connector-java-3.0.17-ga-bin.jar"/>
+	<classpathentry kind="lib" path="lib/opendj-ldap-sdk-2.6.11.jar"/>
+	<classpathentry kind="lib" path="lib/quartz.properties"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

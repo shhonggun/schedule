@@ -1,0 +1,35 @@
+# Entry cn=dsm0103,ou=people,o=ssis cannot be added because it includes
+# attribute entryUUID which is defined as NO-USER-MODIFICATION in the server
+# schema
+dn: cn=dsm0103,ou=people,o=ssis
+changetype: add
+objectClass: top
+objectClass: ssisPerson
+userLevel: 1
+userName: dsm0103
+monitorGroupID: monitor
+vulnFlag: N
+note: abc
+cmFlag: N
+regTime: 2022-01-03
+cn: dsm0103
+status: a
+updateDate: 2022-01-03
+email: dsm0103@test.com
+empNo: dsm0103
+loginFailCnt: 0
+hp: 02-987788
+allowedIps: 1.1.1.1
+lockType: 1
+tel: 010-1111-2222
+dropTime: 999
+userPassword: {SHA512}FB30FC3D24D5AE8C66BC5FB91034001E44B08487E281270D30FC55B408EA42E291495FEAD89961B1FCA1DF53CF9ED01B49DF8DAC156B6429FD4C47CB3FCCC99C
+hash: FB30FC3D24D5AE8C66BC5FB91034001E44B08487E281270D30FC55B408EA42E291495FEAD89961B1FCA1DF53CF9ED01B49DF8DAC156B6429FD4C47CB3FCCC99C
+linkageSystem: abc
+updatePasswdDate: 2022-01-03
+lastLoginDate: 2022-01-03
+createTimestamp: 20220103011014Z
+pwdChangedTime: 20220103011014.767Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+entryUUID: 6ad2a094-85a7-4b0b-b290-dcac067080b8
+

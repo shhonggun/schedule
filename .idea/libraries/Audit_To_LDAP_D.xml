@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Audit_To_LDAP_D">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Audit_To_LDAP_D_jar/Audit_To_LDAP_D.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

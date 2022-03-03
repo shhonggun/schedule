@@ -1,0 +1,15 @@
+# Entry cn=test2,cn=people2,o=ssis cannot be modified because the modification
+# attempted to update attribute modifiersName which is defined as
+# NO-USER-MODIFICATION in the server schema
+dn: cn=test2,cn=people2,o=ssis
+changetype: modify
+replace: status
+status: a
+-
+replace: modifiersName
+modifiersName: cn=Directory Manager,cn=Root DNs,cn=config
+-
+replace: modifyTimestamp
+modifyTimestamp: 20211221071907Z
+-
+

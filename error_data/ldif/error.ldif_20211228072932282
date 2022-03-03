@@ -1,0 +1,34 @@
+# Entry cn=ddd,cn=people2,o=ssis cannot be added because it includes attribute
+# createTimestamp which is defined as NO-USER-MODIFICATION in the server schema
+dn: cn=ddd,cn=people2,o=ssis
+changetype: add
+objectClass: top
+objectClass: ssisPerson
+userLevel: 1
+userName: nameTest8
+monitorGroupID: monitorTest8
+vulnFlag: N
+note: noteTest8
+cmFlag: N
+regTime: 1333-08-08
+cn: ddd
+status: a
+updateDate: 1333-08-08
+email: test7@paran.com
+empNo: test8
+loginFailCnt: 0
+hp: 02-987-998
+allowedIps: 1.1.1.1
+lockType: 1
+tel: 018-9987-9999
+dropTime: 999
+userPassword: {SHA512}3ba2942ed1d05551d4360a2a7bb6298c2359061dc07b368949bd3fb7feca3344221257672d772ce456075b7cfa50fd7ce41eaefe529d056bf23dd665de668b78
+hash: 9d8c92f94dfc83818245501756afcfb5ca850ebd488a9b0bc195f1c026d98306e13a9c86aa423ca1c2e87c9e0f187bd465306930c25b596ff4e23be21b6037b0
+linkageSystem: abc
+updatePasswdDate: 1347-08-08
+lastLoginDate: 1343-08-08
+createTimestamp: 20211221065248Z
+pwdChangedTime: 20211221065248.778Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+entryUUID: b30c92fe-9946-499a-9f60-c6acead40176
+

@@ -1,0 +1,12 @@
+# Entry cn=dsm0103,ou=people,o=ssis cannot be modified because the modification
+# attempted to update attribute modifyTimestamp which is defined as
+# NO-USER-MODIFICATION in the server schema
+dn: cn=dsm0103,ou=people,o=ssis
+changetype: modify
+replace: status
+status: Y
+-
+replace: modifyTimestamp
+modifyTimestamp: 20220103013712Z
+-
+

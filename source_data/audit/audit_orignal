@@ -1,0 +1,82 @@
+# 23/1월/2022:18:03:30 +0900; conn=232; op=37
+dn: cn=test1,ou=people,o=ssis
+changetype: modify
+replace: hp
+hp: 010-1111-5555
+-
+replace: modifiersName
+modifiersName: cn=Directory Manager,cn=Root DNs,cn=config
+-
+replace: modifyTimestamp
+modifyTimestamp: 20220123090330Z
+
+# 24/1월/2022:15:32:42 +0900; conn=363; op=33
+dn: cn=sslvpntest,ou=people,o=ssis
+changetype: modify
+replace: ds-pwp-account-disabled
+ds-pwp-account-disabled: true
+-
+replace: modifiersName
+modifiersName: cn=Directory Manager,cn=Root DNs,cn=config
+-
+replace: modifyTimestamp
+modifyTimestamp: 20220124063242Z
+
+# 24/1월/2022:15:33:21 +0900; conn=364; op=14
+dn: cn=sslvpntest,ou=people,o=ssis
+changetype: modify
+add: idleLockYN
+idleLockYN: Y
+-
+replace: modifiersName
+modifiersName: cn=Directory Manager,cn=Root DNs,cn=config
+-
+replace: modifyTimestamp
+modifyTimestamp: 20220124063321Z
+
+# 24/1월/2022:15:33:34 +0900; conn=363; op=49
+dn: cn=sslvpntest,ou=people,o=ssis
+changetype: modify
+replace: userpassword
+userpassword: {SHA512}uetT09pqIEO1tiYPlG3JzBvtJqx3hh46gHblkCGMMyy0qxz/hIc35pk+NPAZel9AoeFUFS5LpGLJmdaJxuXdeg==
+-
+replace: idlelockyn
+idlelockyn:
+-
+replace: ds-pwp-account-disabled
+ds-pwp-account-disabled: false
+-
+replace: pwdChangedTime
+pwdChangedTime: 20220124063334.180Z
+-
+replace: modifiersName
+modifiersName: cn=Directory Manager,cn=Root DNs,cn=config
+-
+replace: modifyTimestamp
+modifyTimestamp: 20220124063334Z
+
+# 24/1월/2022:16:30:27 +0900; conn=365; op=16
+dn: cn=delsynctest,ou=people,o=ssis
+changetype: add
+objectClass: top
+objectClass: ssisUser
+userType: A
+userName:: 7Iux7YGs7YWM7Iqk7Yq4
+email: delsynctest@test.com
+webmailAuth: 0
+twofactorAuth: 3
+sslvpnAuth: 2
+eduAuth:: 7Yq4MQ==
+cn: delsynctest
+topDeptName:: 7KGw7KeB
+discription:: 7IKt7KCc7Iux7YGs7YWM7Iqk7Yq4
+fullDeptName:: 7YWM7Iqk7Yq4
+hp: 010-1234-1234
+deptName: delsynctest
+userPassword: {SHA512}uetT09pqIEO1tiYPlG3JzBvtJqx3hh46gHblkCGMMyy0qxz/hIc35pk+NPAZel9AoeFUFS5LpGLJmdaJxuXdeg==
+webvulnAuth: 0
+srcvulnAuth: 2
+createTimestamp: 20220124073027Z
+pwdChangedTime: 20220124073027.417Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+entryUUID: 2427f399-7e61-46e1-b7ce-671f704b9887
