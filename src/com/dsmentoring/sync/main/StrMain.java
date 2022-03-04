@@ -12,7 +12,7 @@ public class StrMain {
 
     public static void main(String[] args){
 
-        System.out.println(" 테스트  git commit2를 수행하고 있습니다. ");
+        System.out.println(" 테스트  git commit3를 수행하고 있습니다. ");
 
         String str="cn=test4,ou=people,o=ssis";
         System.out.println("str = "+str);
